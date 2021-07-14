@@ -69,7 +69,7 @@ button:hover{
 .player_photo:hover{
 	width: 970px;
 	height: 970px;
-	transition: width 2s, height 2s;
+	transition: width 1s, height 2s;
 }																								
 
 /*------Headder part end -------*/
@@ -126,7 +126,7 @@ h2,p{
 /* footer design */
 .footer{
 	padding-top: 158px;
-padding-left: 650px;
+    padding-left: 650px;
 }
 
 /*--------------------- logo design------------- */
@@ -160,7 +160,8 @@ i{
 
 .copyright{
 
-font-size: 28px;
+font-size: 15px;
+color: gray;
 }
 /*---footer design end---*/
 
