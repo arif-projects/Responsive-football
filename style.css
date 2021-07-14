@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color:rgba(45, 37, 160, 1);
+  }
+  h1 {
+    font-size: 64px;
+    Line-height:80px;
+    font-weight: 700;
+    height: 230px;
+    width:485px;
+    color:  rgba(255, 255, 255, 1);
+    margin-bottom: 27px;
+  }
+  .top-area {
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .left-side{
+    margin-right: 102px;
+    margin-left: 156px;
+  }
+  .button{
+    text-decoration: none;
+    background-color: rgb(173, 19, 76);
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: 500;
+    font-size: 16px;
+    Padding: 10px 24px 10px 24px;
+    line-height: 24px;
+    width: 168px;
+    height: 44px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  .players-area{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      padding-top: 20px;
+      
+  }
+  .article{
+    width: 330px;
+    height: 434px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 5px;
+  }
+  .players-area img{
+      height: 300px;
+      width: 310px;
+  }
+  .player{
+      margin: 10px 10px;
+  }
+.middle-section{
+    margin-left: 100px;
+    margin-right: 130px;
+}
+.vedio-section{
+  display: flex;
+  margin: 30px 40px;
+}
+.half-width{
+  width: 50%;
+}
+.half-width img{
+  width: 100%;
+}
+.half-width article{
+  text-align: center;
+}
+.prizing-ceremony{
+  display: flex;
+  text-align: center;
+}
+.prizing-ceremony img{
+  width: 300px;
+  height: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo img{
+  margin-top: 80px;
+  margin-left: 470px;
+  margin-right: 481px;
+  width: 483px;
+  height: 110px;
+  
+
+}
+.icon{
+ 
+ margin-left: 670px;
+ width: 200px;
+ padding:  0px 30px;
+ 
+ 
+}
+.footer{
+  margin-left: 700px;
+  width: 400;
+  
+}
+.icon-handler{
+  margin: 0px 15px;
+  
+}
